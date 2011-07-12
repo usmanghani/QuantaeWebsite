@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Test</title>
+		<script type="text/javascript" src="../jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="../jquery.slidertron-0.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<h1>Test</h1>
+			</div>
+			<div id="content">
+			<!-- start -->
+
+					<div id="foobar">
+						<div class="navigation">
+							<a href="#" class="first">[ &lt;&lt; ]</a>
+							&nbsp;
+							<a href="#" class="previous">[ &lt; ]</a>
+							&nbsp;
+							<a href="#" class="next">[ &gt; ]</a>
+							&nbsp;
+							<a href="#" class="last">[ &gt;&gt; ]</a>
+						</div>
+						<div class="viewer">
+							<div class="reel">
+								<div class="slide">
+									<img src="images/1.jpg" alt="">
+									<span>This is the first slide.</span>
+								</div>
+								<div class="slide">
+									<img src="images/2.jpg" alt="">
+									<span>This is the second slide.</span>
+								</div>
+								<div class="slide">
+									<img src="images/3.jpg" alt="">
+									<span>This is the third slide.</span>
+								</div>
+								<div class="slide">
+									<img src="images/4.jpg" alt="">
+									<span>This is the fourth slide.</span>
+								</div>
+								<div class="slide">
+									<img src="images/5.jpg" alt="">
+									<span>This is the fifth slide.</span>
+								</div>
+								<div class="slide">
+									<img src="images/6.jpg" alt="">
+									<span>This is the sixth slide.</span>
+								</div>
+								<div class="slide">
+									<img src="images/7.jpg" alt="">
+									<span>This is the seventh slide.</span>
+								</div>
+								<div class="slide">
+									<img src="images/8.jpg" alt="">
+									<span>This is the eighth slide.</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<script type="text/javascript">
+
+						$('#foobar').slidertron({
+							viewerSelector:			'.viewer',
+							reelSelector:			'.viewer .reel',
+							slidesSelector:			'.viewer .reel .slide',
+							navPreviousSelector:	'.previous',
+							navNextSelector:		'.next',
+							navFirstSelector:		'.first',
+							navLastSelector:		'.last'
+						});
+						
+					</script>
+
+			<!-- end -->
+			</div>
+			<div id="footer">
+				<p>&copy; 2010 <a href="http://nodethirtythree.com/">nodethirtythree design</a>. Photos by <a href="http://www.pdphoto.org/">PD Photo</a>.</p>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+
+  AuthType Digest
+  AuthName "demo"
+  AuthUserFile /home/mugga/digest
+  AuthGroupFile /home/mugga/groups
+  Require group depthinvestors surfaceinvestors founders demo
+  Order allow,deny
+  Satisfy any
+

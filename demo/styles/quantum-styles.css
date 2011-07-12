@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.body, html					{ background: #b7a392; font-family: Georgia, "Times New Roman", Times, serif; margin-bottom: 80px; }
+
+.header						{ background: #541f14; height: 47px; }
+
+a.logo						{ background: #cc9e61 url(../images/logo.png) no-repeat; width: 140px; height: 40px; display: block; text-indent: -999999px; padding: 4px 0px; margin-right: 10px; }
+
+h1							{ font-size: 20px; color: #cc9e61; padding: 13px 10px 0px 0px; display: inline-block; float: left; }
+
+ul, li						{ display: inline; }
+ul, li						{ float: left;  } /*Fix for IE*/
+
+.icon						{ width: 42px; height: 42px; text-indent: -999999px; display: inline-block; float: left; margin: 3px 5px 0px 0px; }
+.icon_user					{ background: url(../images/icon_user.png) no-repeat;}
+.icon_home					{ background: url(../images/icon_home.png) no-repeat;}
+.icon_help					{ background: url(../images/icon_help.png) no-repeat;}
+
+.contents					{ position: relative; overflow: hidden; padding:10px; width: 945px; height: 545px; background: #FFF; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; margin: 30px auto 60px auto; }
+
+
+.img-ontainer				{ position: relative; }
+
+.video-container			{ position: absolute; bottom: -46px; left:-69px; width: 640px; height: 480px;}
+.buttons					{/* display: none;*/ position: absolute; bottom: 0px; width: 945px; margin: 0 auto; height: 50px;}
+.buttons span.float-left a		
+							{ background:url(../images/Pre.png) no-repeat; width: 108px; height: 40px; display: inline-block; float: left; text-indent: -99999px;} 
+.buttons span.float-left a:hover
+							{ margin: 1px 0px 0px 1px;}
+
+.buttons span.float-right a		
+							{ background: url(../images/Next.png) no-repeat; width: 108px; height: 40px; display: inline-block; float: right; text-indent: -99999px;} 
+.buttons span.float-right a:hover
+							{ margin: 1px 1px 0px 0px;}
+
+.tooltip					{ position: absolute; width: 184px; height: 72px; display: none; background: url(../images/tt__next_r.png) no-repeat; }
+.tooltip_l					{ position: absolute; width: 184px; height: 72px; display: none; background: url(../images/tt_next_l.png) no-repeat; }
+
+.toolTipNext				{ position: absolute; bottom: 0px; right: 110px; width: 184px; height: 72px;  background: url(../images/tt__next_r.png) no-repeat; display: none; }
+.tooltip_this				{ position: absolute; bottom: 0px; right: 120px; width: 184px; height: 72px;  background: url(../images/tt_choosethis_r.png) no-repeat; display: none; }
+.tooltip_this_l				{ position: absolute; bottom: 0px; right: 120px; width: 184px; height: 72px;  background: url(../images/tt_choosethis_l.png) no-repeat; display: none; }	
+.tooltip_this_l_long		{ position: absolute; bottom: 0px; right: 120px; width: 184px; height: 203px;  background: url(../images/tt_choosethis_l_long.png) no-repeat; display: none; }	
+.tooltip_this_l_long_short	{ position: absolute; bottom: 0px; right: 120px; width: 184px; height: 145px;  background: url(../images/tt_choosethis_l_long_short.png) no-repeat; display: none; }	
+
+
+.tooltip_nowthis			{ position: absolute; bottom: 0px; right: 120px; width: 181px; height: 92px;  background: url(../images/tt_choosenow_r.png) no-repeat; display: none; }
+.tooltip_nowthis_l			{ position: absolute; bottom: 0px; right: 120px; width: 166px; height: 85px;  background: url(../images/tt_choosenow_l.png) no-repeat; display: none; }	
+
+
+.answer						{ width: 75px; height: 75px; position: absolute; bottom: 60px; right: 25px;  }
+.correct					{ background: url(../images/correct.png) no-repeat; }
+.incorrect					{ background: url(../images/incorrect.png) no-repeat; }
+
+
+.footer						{ background: #000; height: 51px; position: fixed !important;  position: absolute ; bottom: 0px; width: 100%; z-index: 999999999; }
+.footer ul					{ margin: 2px 10px;}
+.icon_facebook				{ background: url(../images/icon_fb.png) no-repeat;}
+.icon_flag					{ background: url(../images/icon_flag.png) no-repeat;}
+.icon_alert					{ background: url(../images/icon_alerts.png) no-repeat;}
+.icon_chat					{ background: url(../images/icon_chat.png) no-repeat;}
+.icon_search				{ background: url(../images/icon_search.png) no-repeat;}
+.icon_book					{ background: url(../images/icon_book.png) no-repeat;}
+.icon_compass				{ background: url(../images/icon_compass.png) no-repeat;}
+
+.float-left					{float: left}
+.float-right				{float: right}
+
+.bgnone						{ background: none;}
+.dispnone					{ display: none;}
+
+map area 					{ position: absolute; z-index: 99999999;}
+
+#slideshow 					{ position:relative; height:720px;} 
+#slideshow img 				{ position:absolute; top:0; left:0; z-index:8; }
+#slideshow img.active 		{ z-index:10; }
+#slideshow img.last-active 	{ z-index:9; }
+
+
+
+/* 
+////////////////////////////////
+///////////// Positioning Videos
+///////////////////////////////
+*/
+
+
+#slide3 .video-container	{ position: absolute; bottom: -92px; left:-150px; width: 640px; height: 480px; }
+#slide4 .video-container	{ position: absolute; bottom: -65px; left:-150px; width: 640px; height: 480px;}
+#slide9 .video-container	{ position: absolute; bottom: -62px; left:-150px; width: 640px; height: 480px; }
+#slide32 .video-container	{ position: absolute; bottom: -35px; left:-75px; width: 640px; height: 480px;}
+#slide33 .video-container	{ position: absolute; bottom: -40px; left:-120px; width: 640px; height: 480px;}
+#slide35 .video-container	{ position: absolute; bottom: -55px; left:-50px; width: 640px; height: 480px;}
+#slide36 .video-container	{ position: absolute; bottom: -65px; left:-100px; width: 640px; height: 480px;}
+#slide58 .video-container	{ position: absolute; bottom: -65px; left:-100px; width: 640px; height: 480px;}
+#slide59 .video-container	{ position: absolute; bottom: -55px; left:-100px; width: 640px; height: 480px;}
+#slide60 .video-container	{ position: absolute; bottom: -47px; left:-100px; width: 640px; height: 480px;}
+#slide61 .video-container	{ position: absolute; bottom: -40px; left:-100px; width: 640px; height: 480px;}
+#slide76 .video-container	{ position: absolute; bottom: -50px; left:-100px; width: 640px; height: 480px;}
+#slide77 .video-container	{ position: absolute; bottom: -35px; left:-80px; width: 640px; height: 480px;}
+#slide78 .video-container	{ position: absolute; bottom: -37px; left:-80px; width: 640px; height: 480px;}
+#slide110 .video-container	{ position: absolute; bottom: -55px; left:-150px; width: 640px; height: 480px;}
+#slide111 .video-container	{ position: absolute; bottom: -70px; left:-100px; width: 640px; height: 480px;}
+#slide112 .video-container	{ position: absolute; bottom: -70px; left:-100px; width: 640px; height: 480px;}
+
+
+
+/* 
+////////////////////////////////
+///////////// contents increased Height
+///////////////////////////////
+*/
+
+
+.contents#slide0,
+.contents#slide30,
+.contents#slide51,
+.contents#slide56,
+.contents#slide74,
+.contents#slide96, 
+.contents#slide101-1,
+.contents#slide108,
+.contents#slide124,
+.contents#slide125, 
+.contents#index-2 { height: 780px;}

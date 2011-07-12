@@ -1,0 +1,15 @@
+#slidertron .border {
+	background: url(images/slidertron_sprites.gif) no-repeat 0px 0px;
+}
+
+
+#slidertron .slide .text {
+}
+
+#slidertron .prev, #slidertron .next {
+	background: url(images/slidertron_sprites.gif) no-repeat 0px -294px;
+}
+
+#slidertron .next {
+	background-position: -43px -294px;
+}

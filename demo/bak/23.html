@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Quantae</title>
+<link href="styles/reset.css" rel="stylesheet" type="text/css" />
+<link href="styles/quantum-styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+<!--<script src="js/swfobject_modified.js" type="text/javascript"></script>-->
+<script language="JavaScript" type="text/javascript">
+
+// Tooltip on NEXT button
+$(function(){
+	window.setTimeout( fadeImage, 500 );
+  
+	function fadeImage(){
+		$('.toolTipNext').fadeIn(1000); 
+	}
+});
+
+// Tooltip based on image MAP
+/*$(document).ready(function() {
+var x;
+var y;
+var type;
+
+window.setTimeout( fadeImage, 2000 );
+function fadeImage (){
+	thisText = $("area").attr("id");
+	type = $("area").attr("class")
+	var position = $("area").attr('coords').split(',');
+	x = +position[2] - 50;
+	y = +position[3] - 200;
+	if ($(".tooltip").length != 0) {
+		$(".tooltip").fadeOut(1000).animate({top: y+'px'}, {queue: false, duration:1000}).queue(function(){
+			$("area").remove();
+		});
+	}
+	$("#_Image-Maps").append("<div class='tooltip' id='clickhere' style='left:"+x+"px;top:"+y+"px;'></div>");
+	$("#clickhere").fadeIn(1000).animate({top: y+20+'px'}, {queue: false, duration:1000});
+}
+});
+
+*/
+</script>    
+
+</head>
+<body>
+<!--Starting Header-->
+<div class="header"> <a href="index.html" class="logo float-left" title="Go to Title Page - Quantae">Quantae</a>
+  <h1>Arabic</h1>
+  <span class="float-right">
+  <ul>
+	<li>
+	  <h1>Welcome, John Doe</h1>
+	</li>
+	<li><a href="#" class="icon icon_user" title="User Account">Account</a></li>
+	<li><a href="#" class="icon icon_home" title="Home">Home</a></li>
+	<li><a href="#" class="icon icon_help" title="Help">Help</a></li>
+  </ul>
+  </span> </div>
+<!--Ending Header-->
+<!--Starting Content Area-->
+<div class="contents " id="slide23">
+  <div class="img-container">
+	<img id="Image-Maps" src="images/slides/slide(23).jpg" usemap="#Image-Maps" border="0" width="955" height="546" alt="" /> 
+	<!--<img id="Image-Maps" src="images/slides/slide(23).jpg" usemap="#Image-Maps" border="0" width="955" height="546" alt="" /> 
+	<map id="_Image-Maps" name="Image-Maps"> 
+		<area shape="rect" coords="435,278,759,336" id="070" class="Open Double" /> 
+	</map>-->
+  </div>
+  <div class="video-container dispnone">
+  </div>
+  <div class="buttons"><span class="float-left"><a href="22.html" title="Previous" id="Previous">Previous</a></span><span class="float-right"><a href="24.html" title="Next"  id="Next">Next</a></span></div>
+  <div class="tooltip"></div>
+  <div class="toolTipNext"></div>
+  <div class="answer correct"></div>
+</div>
+<!--Ending Content Area-->
+<!--Starting Footer-->
+<br clear="all" />
+<div class="footer"> <span class="float-left">
+  <ul>
+	<li><a href="#" class="icon icon_facebook" title="Facebook">Facebook</a></li>
+	<li><a href="#" class="icon icon_flag" title="Flag">Flag</a></li>
+	<li><a href="#" class="icon icon_alert" title="Alerts">Alerts</a></li>
+	<li><a href="#" class="icon icon_chat" title="Chat/Discussions">Chat/Discussions</a></li>
+  </ul>
+  </span> <span class="float-right">
+  <ul>
+	<li><a href="#" class="icon icon_search" title="Search">Search</a></li>
+	<li><a href="#" class="icon icon_book" title="Book">Book</a></li>
+	<li><a href="#" class="icon icon_compass" title="Navigation">Navigation</a></li>
+  </ul>
+  </span> </div>
+<!--Ending Footer-->
+</body>
+</html>
