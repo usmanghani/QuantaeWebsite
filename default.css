@@ -305,6 +305,33 @@ dl.list-style1 dd {
 	background: url(images/homepage_03.gif) no-repeat left top;
 }
 
+#menu li form {
+	display: inline
+	float: left;
+	height: 21px;
+	padding: 0px 18px 0px 20px;
+	/*background: url(images/homepage_03.gif) no-repeat left top;*/
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 16px;
+	color: #C5B7B9;
+}
+
+#menu li form input[text]{
+	display: inline;
+	border: 1px solid;
+	border-left: 4px solid;
+	float: left;
+	height: 21px;
+	padding: 0px 18px 0px 20px;
+	/*background: url(images/homepage_03.gif) no-repeat left top;*/
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 16px;
+	color: #C5B7B9;
+	width: 135px;
+}
+
 #menu li.first {
 	background: none;
 }
@@ -417,6 +444,26 @@ dl.list-style1 dd {
 	left: 0px;
 	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
 	z-index:100;
+}
+
+#slidertron .slide .slide_video_tag {
+	width: 140px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
+	z-index:100;
+}
+
+#slidertron .slide .slide_play_icon {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 70px;
+	left: 260px;
+	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
+	z-index:101;
 }
 
 #slidertron .slide .text h3, #slidertron .slide .text p {

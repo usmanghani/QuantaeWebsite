@@ -425,6 +425,26 @@ dl.list-style1 dd {
 	z-index:100;
 }
 
+#slidertron .slide .slide_video_tag {
+	width: 140px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
+	z-index:100;
+}
+
+#slidertron .slide .slide_play_icon {
+	width: 140px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
+	z-index:100;
+}
+
 #slidertron .slide .text h3, #slidertron .slide .text p {
 	margin: 0px;
 	padding-right: 95px;
