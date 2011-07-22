@@ -18,7 +18,7 @@
 
 $(document).ready(function() {
   var v = document.createElement("video"); // Are we dealing with a browser that supports <video>? 
-  // if ( !v.play ) { // If no, use Flash.
+  if ( !v.play ) { // If no, use Flash.
   	var params = {
 	  allowfullscreen: "true",
 	  allowscriptaccess: "always",
@@ -27,7 +27,7 @@ $(document).ready(function() {
 	var flashvars = false;
 	swfobject.switchOffAutoHideShow();
 	swfobject.embedSWF("flash/videoplayer.swf?video=../videos/QuantaeIntroVideo.flv", "video-container-inner", "480", "390", "9.0.0", "flash/expressInstall.swf", flashvars, params);
-  // }
+  }
 });
 
 </script>
