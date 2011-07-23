@@ -11,10 +11,10 @@
 
 // Tooltip on NEXT button
 $(function(){
-	window.setTimeout( fadeImage, 2000 );
+	window.setTimeout( fadeImage, 20 );
   
 	function fadeImage(){
-		$('.toolTipNext').fadeIn(1000); 
+		$('.toolTipNext').fadeIn(100); 
 	}
 });
 
@@ -24,7 +24,7 @@ var x;
 var y;
 var type;
 
-window.setTimeout( fadeImage, 2000 );
+window.setTimeout( fadeImage, 20 );
 function fadeImage (){
 	thisText = $("area").attr("id");
 	type = $("area").attr("class")
@@ -32,12 +32,12 @@ function fadeImage (){
 	x = +position[2] - 50;
 	y = +position[3] - 200;
 	if ($(".tooltip").length != 0) {
-		$(".tooltip").fadeOut(1000).animate({top: y+'px'}, {queue: false, duration:1000}).queue(function(){
+		$(".tooltip").fadeOut(100).animate({top: y+'px'}, {queue: false, duration:100}).queue(function(){
 			$("area").remove();
 		});
 	}
 	$("#_Image-Maps").append("<div class='tooltip' id='clickhere' style='left:"+x+"px;top:"+y+"px;'></div>");
-	$("#clickhere").fadeIn(1000).animate({top: y+20+'px'}, {queue: false, duration:1000});
+	$("#clickhere").fadeIn(100).animate({top: y+20+'px'}, {queue: false, duration:100});
 }
 });
 
@@ -55,7 +55,7 @@ function slideSwitch() {
 
     $next.css({opacity: 0.0})
         .addClass('active')
-        .animate({opacity: 1.0}, 2000, function() {
+        .animate({opacity: 1.0}, 20, function() {
             $active.removeClass('active last-active');
         });
 }

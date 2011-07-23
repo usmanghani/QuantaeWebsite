@@ -11,10 +11,10 @@
 
 // Tooltip on NEXT button
 /*$(function(){
-	window.setTimeout( fadeImage, 2000 );
+	window.setTimeout( fadeImage, 20 );
   
 	function fadeImage(){
-		$('.toolTipNext').fadeIn(1000); 
+		$('.toolTipNext').fadeIn(100); 
 	}
 });
 */
@@ -24,7 +24,7 @@ var x;
 var y;
 var type;
 
-window.setTimeout( fadeImage, 2000 );
+window.setTimeout( fadeImage, 20 );
 function fadeImage (){
 	thisText = $("area").attr("id");
 	type = $("area").attr("class")
@@ -32,12 +32,12 @@ function fadeImage (){
 	x = +position[2] - 0;
 	y = +position[3] - 80;
 	if ($(".tooltip_this_l").length != 0) {
-		$(".tooltip_this_l").fadeOut(1000).animate({top: y+'px'}, {queue: false, duration:1000}).queue(function(){
+		$(".tooltip_this_l").fadeOut(100).animate({top: y+'px'}, {queue: false, duration:100}).queue(function(){
 			$("area").remove();
 		});
 	}
 	$("#_Image-Maps").append("<div class='tooltip_this_l' id='clickhere' style='left:"+x+"px;top:"+y+"px;'></div>");
-	$("#clickhere").fadeIn(1000).animate({top: y+20+'px'}, {queue: false, duration:1000});
+	$("#clickhere").fadeIn(100).animate({top: y+20+'px'}, {queue: false, duration:100});
 }
 });
 
