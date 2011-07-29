@@ -1,5 +1,9 @@
 <xml xmlns:o="urn:schemas-microsoft-com:office:office">
+<<<<<<< HEAD
  <o:MainFile HRef="../Executive_Summary_Quantae.html"/>
+=======
+ <o:MainFile HRef="../Executive_Summary_Quantae.htm"/>
+>>>>>>> 75e66f0292a526828d2ca3503c0cfe6cb4aaa5d0
  <o:File HRef="item0006.xml"/>
  <o:File HRef="props007.xml"/>
  <o:File HRef="themedata.thmx"/>
