@@ -377,7 +377,7 @@ dl.list-style1 dd {
 #slidertron .viewer {
 	width: 720px;
 	height: 540px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #slidertron .border {
@@ -411,8 +411,8 @@ dl.list-style1 dd {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 720;
-	height: 540;
+	width: 720px;
+	height: 540px;
 }
 
 #slidertron .slide .text {
@@ -421,6 +421,26 @@ dl.list-style1 dd {
 	position: absolute;
 	top: 65px;
 	left: 0px;
+	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
+	z-index:100;
+}
+
+#slidertron .slide .slide_video_tag {
+	width: 140px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
+	z-index:100;
+}
+
+#slidertron .slide .slide_play_icon {
+	width: 140px;
+	height: 100px;
+	position: absolute;
+	top: 30px;
+	left: 200px;
 	background: url(images/slidertron_sprites.png) no-repeat 0px -349px;
 	z-index:100;
 }
