@@ -377,7 +377,7 @@ dl.list-style1 dd {
 #slidertron .viewer {
 	width: 720px;
 	height: 540px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #slidertron .border {
