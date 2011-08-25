@@ -368,20 +368,20 @@ dl.list-style1 dd {
 /** SLIDERTRON */
 
 #slidertron {
-	width: 900px;
+	width: 760px;
 	height: 700px;
 	padding: 0px 26px;
 	position: relative;
 }
 
 #slidertron .viewer {
-	width: 900px;
+	width: 760px;
 	height: 700px;
 	overflow: hidden;
 }
 
 #slidertron .border {
-	width: 900px;
+	width: 760px;
 	height: 700px;
 	position: absolute;
 	top: 0px;
@@ -402,7 +402,7 @@ dl.list-style1 dd {
 
 #slidertron .slide {
 	float: left;
-	width: 900px;
+	width: 760px;
 	height: 700px;
 	position: relative;
 }
@@ -416,7 +416,7 @@ dl.list-style1 dd {
 }
 
 #slidertron .slide .text {
-	width: 900px;
+	width: 760px;
 	height: 163px;
 	position: absolute;
 	top: 65px;
