@@ -1,9 +1,0 @@
-
-  AuthType Digest
-  AuthName "investor"
-  AuthUserFile /home/mugga/digest
-  AuthGroupFile /home/mugga/groups
-  Require group depthinvestors founders
-  Order allow,deny
-  Satisfy any
-
