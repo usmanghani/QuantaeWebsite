@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://www.quantae.com/</loc>
+  <lastmod>2011-07-26T10:23:16+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/demo.html</loc>
+  <lastmod>2011-07-11T11:04:48+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/team.html</loc>
+  <lastmod>2011-07-29T01:53:16+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/investor_relations.html</loc>
+  <lastmod>2011-07-26T08:46:50+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/jobs.html</loc>
+  <lastmod>2011-07-26T10:16:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/about.html</loc>
+  <lastmod>2011-07-25T08:37:21+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/contactus.html</loc>
+  <lastmod>2011-07-26T10:16:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/concept_video.html</loc>
+  <lastmod>2011-07-27T09:16:04+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/learn_more.html</loc>
+  <lastmod>2011-07-26T10:16:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/index.html</loc>
+  <lastmod>2011-07-26T10:23:16+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/demoindex/index.html</loc>
+  <lastmod>2011-07-10T07:51:40+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.quantae.com/Executive_Summary_Quantae_Condensed.html</loc>
+  <lastmod>2011-07-26T10:16:32+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
